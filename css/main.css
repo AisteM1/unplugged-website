@@ -426,7 +426,7 @@ textarea {
   
    .faq-content h2,
    .faq-content h4 { 
-    line-height: 1.3333;
+    line-height: 1.333;
    }
 
 /* ==========================================================================
@@ -437,8 +437,7 @@ textarea {
  * Hide visually and from screen readers
  */
 
-.hidden,
-[hidden] {
+.hidden {
   display: none !important;
 }
 
@@ -451,7 +450,7 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.sr-only {
+.visuallyhidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -470,15 +469,15 @@ textarea {
  * https://www.drupal.org/node/897638
  */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
   overflow: visible;
   position: static;
+   width: auto;
   white-space: inherit;
-  width: auto;
 }
 
 /*
@@ -504,7 +503,9 @@ textarea {
 .clearfix::before,
 .clearfix::after {
   content: " ";
+  /* 1 */
   display: table;
+  /* 2 */
 }
 
 .clearfix::after {
@@ -517,7 +518,7 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 768px) { 
+   @media only screen and (min-width: 768px) {
     /*Tablet styles here */
 
     /*General styles */
@@ -667,6 +668,7 @@ textarea {
    footer .copyright {
     width: 100%;
    }
+  
 
    /* ==========================================================================
    
@@ -729,14 +731,13 @@ textarea {
     font-size: .875em;
     line-height: 1.125;
    }
-  }
 
    @media only screen and (min-width: 1200px) { 
    /*Desktop styles here */
 
    /* General styles */
    .content-wrapper {
-        max-width: 960px;
+        max-width: 960px;     
    }
 
   /* Header */
@@ -802,6 +803,7 @@ textarea {
    footer h4 {
     font-size: 1.875em;
    }
+  
 
    /* ==========================================================================
    
@@ -831,23 +833,17 @@ textarea {
    ========================================================================== */
    /**** No longer needed since updating header hiearchy ****/
    
-   .faq h2 {
+   /* .faq h2 {
     width: 100%;
     font-size: 3em;
-   }
-
+   } */
+   
+  .faq h2, 
   .faq h4,
   .faq p {
     font-size: 1.125em;
     line-height: 1;
   }
-  }
-  
-  @media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -860,7 +856,7 @@ textarea {
   *,
   *::before,
   *::after {
-    background: #fff !important;
+    background: transparent !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
@@ -872,11 +868,11 @@ textarea {
     text-decoration: underline;
   }
 
-  a[href]::after {
+  a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  abbr[title]::after {
+  abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
@@ -884,8 +880,8 @@ textarea {
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
     content: "";
   }
 
