@@ -96,338 +96,338 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
-   /* General Styles */
 
-   html {
-    font-size: 1rem;
-   }
+/* General Styles */
 
-   body {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    /*color: #e3e3ed; */
-    color: #E9EAF1;
-    text-align: left;
-   }
+html {
+  font-size: 1rem;
+}
 
-   ul,
-   ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-   }
+body {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  /*color: #e3e3ed; */
+  color: #e9eaf1;
+  text-align: left;
+}
 
-   a { 
-    color: #e2e3ed;
-    text-decoration: none;
-   }
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-   .mission h1,
-   h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.875em;
-    margin: 0;
-   }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
-   .form-description h2,
-   .faq h2,
-   h3, 
-   h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    margin: 20px 0;
-   }
+.mission h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.875em;
+  margin: 0;
+}
 
-   p {
-    font-size: .875em;
-    line-height: 1.285;
-   }
+.form-description h2,
+.faq h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
 
-   img {
-    width: 100%;
-   }
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
 
-   figure {
-    margin: 0;
-   }
+img {
+  width: 100%;
+}
 
-   address {
-    font-style: normal;
-   }
+figure {
+  margin: 0;
+}
 
-   .content-wrapper {
-    width: 90%;
-    margin: 50px 0;
-   }
+address {
+  font-style: normal;
+}
 
-   /*-------------------- Base Header - Footer Styles --------------------*/
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
-   header {
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-    background-color: #202322;
-   }
+/*-------------------- Base Header - Footer Styles --------------------*/
 
-   header .content-wrapper {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: #202322;
+}
 
-   header figure {
-    width: 60%;
-   }
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-   .header-divider {
-    background: #3a3a3a;
-    height: 1px;
-    width: 100%;
-    margin: 10px 0 20px 0;
-   }
+header figure {
+  width: 60%;
+}
 
-   header nav {
-    width: 60%;
-    font-size: 1.125em;
-    font-weight: 700;
-    text-transform: uppercase;
-   }
+.header-divider {
+  background: #3a3a3a;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
 
-   header nav ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-   }
-   
-   header nav ul li {
-    font-size: 1.125em;
-   }
+header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
-   footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #202322;
-   }
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 
-   footer p {
-    margin: 0;
-   }
+header nav ul li {
+  font-size: 1.125em;
+}
 
-   footer .content-wrapper {
-    width: 55%;
-   }
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #202322;
+}
 
-   footer .contact {
-    margin-bottom: 50px;
-   }
+footer p {
+  margin: 0;
+}
 
-   footer .social-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   }
+footer .content-wrapper {
+  width: 55%;
+}
 
-  footer .social-icons p {
-    background-color: #527158;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+footer .contact {
+  margin-bottom: 50px;
+}
 
-  footer .social-icons p i {
-    font-size: 1.3125em;
-  }
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  footer .copyright {
-    margin: 20px 0;
-  }
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  /*-------------------- Mobile Styles - Homepage --------------------*/
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
 
-  /* Hero Area */
+footer .copyright {
+  margin: 20px 0;
+}
 
-  .hero-area {
-    background: url(../img/unplugged-retreat.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-  }
+/*-------------------- Mobile Styles - Homepage --------------------*/
 
-  .hero-area h1 {
-    font-size: 2.25em;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-  }
+/* Hero Area */
 
-  /* Aside */
+.hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
 
- aside {
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Aside */
+
+aside {
   background-color: #527158;
   display: flex;
   justify-content: center;
-  }
+}
 
-  aside .form {
-    margin-top: 30px;
-  }
+aside .form {
+  margin-top: 30px;
+}
 
-  input[type=text] {
-    box-sizing: border-box;
-    width: 100%;
-    color: #2a423a;
-    font-style: italic;
-    padding: 1em;
-    margin-top: 10px;
-  }
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+  margin-top: 10px;
+}
 
-  input[type=button] {
-    width: 100%;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-color:#2a423a;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    color: #e2e3ed;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
-  }
+input[type="button"] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  /* Features */
+/* Features */
 
-  .features {
-    background: url('../img/unplugged-retreat-features.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-  }
+.features {
+  background: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
 
-  .features h2 {
-    margin-bottom: 60px;
-  }
+.features h2 {
+  margin-bottom: 60px;
+}
 
-  .features article {
-    width: 63%;
-    margin: 30px 0;
-  }
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
 
-  .features .features-items {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-  }
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
 
-  .features i { 
-    font-size: 3.75em;
-    margin-bottom: 40px;
-  }
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 
-  .features p {
-    text-align: center;
-    margin: 0;
-  }
+.features p {
+  text-align: center;
+  margin: 0;
+}
 
-  /* Reviews */
+/* Reviews */
 
-  .reviews { 
-    background-color: #2a423a;
-    display: flex;
-    justify-content: center;
-  }
+.reviews {
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+}
 
-  .reviews h2 {
-    margin-bottom: 40px;
-    line-height: 1;
-  }
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
 
-  .reviews h3 {
-    width: 55%;
-    margin: 20px 0;
-  }
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
 
-  /* ==========================================================================
+/* ==========================================================================
    About Page 
    ========================================================================== */
 
-   .mission {
-    background-color: #527158;
-    display: flex;
-    justify-content: center;
-   }
+.mission {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+}
 
-   .map figure {
-    width: 100%;
-    height: 0;
-    padding-bottom: 125%;
-    overflow: hidden;
-    position: relative;
-   }
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
 
-   .map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-   }
-  
-   .contact-section {
-    background-color: #2a423a;
-    display: flex;
-    justify-content: center;
-   }
-    
-   .contact-content p {
-    margin: 0;
-   }
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-   /* ==========================================================================
+.contact-section {
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+/* ==========================================================================
    FAQ Page 
    ========================================================================== */
 
-   .faq {
-    background-color: #527158;
-    display: flex;
-    justify-content: center;
-   }
-   
-   .faq .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    margin: 50px 0 0 0;
-   }
+.faq {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+}
 
-   .faq h1 {
-    margin-bottom: 40px;
-    line-height: 1;
-   }
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
 
-   .faq-content {
-    margin-bottom: 50px;
-   }
-  
-   .faq-content h2,
-   .faq-content h4 { 
-    line-height: 1.333;
-   }
+.faq h1 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
+.faq-content h2,
+.faq-content h4 {
+  line-height: 1.333;
+}
 
 /* ==========================================================================
    Helper classes
@@ -476,7 +476,7 @@ textarea {
   margin: 0;
   overflow: visible;
   position: static;
-   width: auto;
+  width: auto;
   white-space: inherit;
 }
 
@@ -518,406 +518,404 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 768px) {
-    /*Tablet styles here */
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here */
 
-    /*General styles */
-    .content-wrapper {
-      max-width: 640px;
-      margin: 100px 0;
-    }
+  /*General styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
 
-    .mission h1,
-    .faq h1,
-    h2 { 
-      font-size: 2.25em;
-      line-height: 1.333;
-    }
+  .mission h1,
+  .faq h1,
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
 
-    .form-description h2,
-    h3 {
-      font-size: 1.5em;
-      line-height: 1.25;
-    }
-   
-   /* Header */
-   header {
+  .form-description h2,
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  /* Header */
+  header {
     padding: 33px 0;
-   }
-   
-   header .content-wrapper {
+  }
+
+  header .content-wrapper {
     width: 100%;
     justify-content: space-between;
-   }
+  }
 
-   header figure {
-     width: 30%;
-   }
+  header figure {
+    width: 30%;
+  }
 
-   header nav {
+  header nav {
     width: 20%;
-   }
+  }
 
-   header nav ul {
+  header nav ul {
     justify-content: space-between;
-   }
+  }
 
-   .header-divider {
+  .header-divider {
     display: none;
-   }
+  }
 
-   /* Hero Area */
+  /* Hero Area */
 
-   .hero-area {
+  .hero-area {
     min-height: 600px;
-   }
+  }
 
-   .hero-area h1 {
+  .hero-area h1 {
     font-size: 3em;
     line-height: 1;
     margin: 0;
-   }
+  }
 
-   /* Aside */
-   aside .content-wrapper {
+  /* Aside */
+  aside .content-wrapper {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
     align-items: center;
-   }
+  }
 
-   aside .content-wrapper .form-description,
-   aside .content-wrapper .form {
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
     width: 40%;
     margin: 0;
-   }
+  }
 
-   /* Features */
+  /* Features */
 
-   .features h2 {
+  .features h2 {
     margin-bottom: 20px;
-   }
+  }
 
-   .features article {
+  .features article {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
-   }
+  }
 
-   .features .features-item-description {
-     width: 62%;
-   }
+  .features .features-item-description {
+    width: 62%;
+  }
 
-   .features i {
+  .features i {
     margin-bottom: 30px;
-   }
+  }
 
-   /* Reviews */
-   .reviews article {
+  /* Reviews */
+  .reviews article {
     display: flex;
     justify-content: space-between;
-   }
+  }
 
-   .reviews h2 {
+  .reviews h2 {
     width: 85%;
-   }
+  }
 
-   .reviews article figure,
-   .reviews article div {
+  .reviews article figure,
+  .reviews article div {
     width: 49%;
-   }
+  }
 
-   .reviews h3 {
+  .reviews h3 {
     width: 75%;
     margin: 0;
-   }
+  }
 
-   /* Footer */
-   footer .content-wrapper {
+  /* Footer */
+  footer .content-wrapper {
     width: 65%;
-   }
+  }
 
-   footer .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-   }
+  }
 
-   footer .contact {
+  footer .contact {
     margin-bottom: 0;
-   }
-   
-   footer h3,
-   footer h4 {
+  }
+
+  footer h3,
+  footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
-   }
+  }
 
-   footer p {
+  footer p {
     line-height: 1.285;
-   }
+  }
 
-   footer .social-icons {
+  footer .social-icons {
     width: 12.5em;
     justify-content: space-between;
-   }
+  }
 
-   footer .copyright {
+  footer .copyright {
     width: 100%;
-   }
-  
+  }
 
-   /* ==========================================================================
+  /* ==========================================================================
    
    About Page 
 
    ========================================================================== */
 
-   .mission-content {
+  .mission-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 20px;
-   }
+  }
 
-   .mission-content p {
-     width: 45%;
-   }
+  .mission-content p {
+    width: 45%;
+  }
 
-   .map figure {
+  .map figure {
     padding-bottom: 45.5%;
-   }
+  }
 
-   .contact-section .content-wrapper h2 {
+  .contact-section .content-wrapper h2 {
     width: 80%;
-   }
+  }
 
-   .contact-content {
+  .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-   }
-
-   .contact-content h3,
-   .contact-content h4 {
-    font-size: 1.5em;
-   }
-
-   /* ==========================================================================
-   
-   FAQ Page 
-
-   ========================================================================== */
-
-   .faq .content-wrapper {
-    justify-content: space-between;
-   }
-
-   .faq-content {
-    flex-basis: 45%;
-   }
-
-   .faq h1,
-   .faq h2 { 
-    width: 100%;
-   }
-   
-   .faq h2,
-   .faq h4,
-   .faq p {
-    font-size: .875em;
-    line-height: 1.125;
-   }
-
-   @media only screen and (min-width: 1200px) { 
-   /*Desktop styles here */
-
-   /* General styles */
-   .content-wrapper {
-        max-width: 960px;     
-   }
-
-  /* Header */
-   header { 
-    padding: 15px 0;
-   }
-
-   h2 {
-    font-size: 2.25em;
-   }
-
-   .form-description h2,
-   h3,
-   h4 {
-    font-size: 1.875em;
-   }
-
-   p {
-    font-size: 1.125em;
-    line-height: 1.333;
-   }
-
-   /* Hero */
-   .hero-area h1 {
-    font-size: 3.75em;
-    width: 80%; 
-   }
-
-   /* Aside */
-   aside .content-wrapper {
-    justify-content: space-around;
-   }
-
-   aside .content-wrapper .form-description,
-   aside .content-wrapper .form {
-     width: 40%;
-   }
-
-   .form-description p {
-    font-size: 1.125em;
-   }
-
-   /* Features */
-   .features h2 {
-    width: 90%;
-   }
-
-   .features article {
-    flex-basis: 33%;
-   }
-
-   /* Reviews */
-
-   .reviews h2 {
-    padding-bottom: 50px;
-   }
-
-   .reviews article div {
-    width: 42%;
-   }
-
-   footer h3,
-   footer h4 {
-    font-size: 1.875em;
-   }
-  
-
-   /* ==========================================================================
-   
-   About Page 
-
-   ========================================================================== */
-   .map figure {
-    padding-bottom: 37.5%;
-   }
-   
-  .mission h1, 
-  .mission h2,
-  .contact-section .content-wrapper h2 {
-    width: 95%;
-    font-size: 3em;
   }
 
   .contact-content h3,
   .contact-content h4 {
-    font-size: 1.875em;
+    font-size: 1.5em;
   }
 
-   /* ==========================================================================
+  /* ==========================================================================
    
    FAQ Page 
 
    ========================================================================== */
-   /**** No longer needed since updating header hiearchy ****/
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h1,
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq h2,
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 1.125;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    /*Desktop styles here */
+
+    /* General styles */
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /* Header */
+    header {
+      padding: 15px 0;
+    }
+
+    h2 {
+      font-size: 2.25em;
+    }
+
+    .form-description h2,
+    h3,
+    h4 {
+      font-size: 1.875em;
+    }
+
+    p {
+      font-size: 1.125em;
+      line-height: 1.333;
+    }
+
+    /* Hero */
+    .hero-area h1 {
+      font-size: 3.75em;
+      width: 80%;
+    }
+
+    /* Aside */
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+      width: 40%;
+    }
+
+    .form-description p {
+      font-size: 1.125em;
+    }
+
+    /* Features */
+    .features h2 {
+      width: 90%;
+    }
+
+    .features article {
+      flex-basis: 33%;
+    }
+
+    /* Reviews */
+
+    .reviews h2 {
+      padding-bottom: 50px;
+    }
+
+    .reviews article div {
+      width: 42%;
+    }
+
+    footer h3,
+    footer h4 {
+      font-size: 1.875em;
+    }
+
+    /* ==========================================================================
    
-   /* .faq h2 {
+   About Page 
+
+   ========================================================================== */
+    .map figure {
+      padding-bottom: 37.5%;
+    }
+
+    .mission h1,
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+      width: 95%;
+      font-size: 3em;
+    }
+
+    .contact-content h3,
+    .contact-content h4 {
+      font-size: 1.875em;
+    }
+
+    /* ==========================================================================
+   
+   FAQ Page 
+
+   ========================================================================== */
+    /**** No longer needed since updating header hiearchy ****/
+
+    /* .faq h2 {
     width: 100%;
     font-size: 3em;
    } */
-   
-  .faq h2, 
-  .faq h4,
-  .faq p {
-    font-size: 1.125em;
-    line-height: 1;
-  }
-}
 
-/* ==========================================================================
+    .faq h2,
+    .faq h4,
+    .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+    }
+  }
+
+  /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: transparent !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
 
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
 
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
+    abbr[title]:after {
+      content: " (" attr(title) ")";
+    }
 
-  /*
+    /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+      content: "";
+    }
 
-  pre {
-    white-space: pre-wrap !important;
-  }
+    pre {
+      white-space: pre-wrap !important;
+    }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
 
-  /*
+    /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
-    display: table-header-group;
-  }
+    thead {
+      display: table-header-group;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
   }
 }
-
